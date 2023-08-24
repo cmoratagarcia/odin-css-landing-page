@@ -5,5 +5,3 @@ Create an entire web page based on a design provided. 2 images were provided: on
 [Complete website](./Reference1.png)
 
 [Details](./Colors-fonts.png)
-
-Testing
