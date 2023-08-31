@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.dark-background {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+.hero p, .menu-link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight:900;
+}
+
+.cta, button {
+    background-color: #3882f6;
+}
+
+.cards, .testimonials {
+    color: #1f2937
+}
+
+.cards h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.testimonials {
+    background-color: #e5e7eb;
+}
+
+.testimonial-text {
+font-size: 36px;
+font-style: italic;
+font-weight: lighter;
+}
