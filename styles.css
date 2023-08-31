@@ -56,6 +56,16 @@ body {
     background-color: #3882f6;
 }
 
+.hero-btn {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
 .cards, .testimonials {
     color: #1f2937
 }
