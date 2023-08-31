@@ -30,13 +30,16 @@ body {
     gap: 25px;
 }
 .hero {
-    gap: 70px;
-    align-items: flex-start;
+       align-items: flex-start;
+    justify-content: space-between;
 }
-    
+ 
+.hero-text {
+    max-width: 40%;
+}
 
 .hero-img {
-    width: 600px;
+    width: 700px;
     flex-shrink: 0;
 }
 .hero p, .menu-link {
