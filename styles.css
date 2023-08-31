@@ -6,10 +6,25 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
 }
-
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .header-logo {
     font-size: 24px;
 }
+
+.nav-menu {
+    list-style-type: none;
+    cursor: pointer;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
 .hero p, .menu-link {
     font-size: 18px;
     color: #e5e7eb;
