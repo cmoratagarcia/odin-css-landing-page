@@ -30,17 +30,22 @@ body {
     gap: 25px;
 }
 .hero {
-       align-items: flex-start;
+       align-items: center;
     justify-content: space-between;
 }
  
 .hero-text {
     max-width: 40%;
+    line-height: 1.5;
+ 
 }
-
+.hero-text > * {
+    margin-bottom: 40px;
+}
 .hero-img {
     width: 700px;
     flex-shrink: 0;
+    margin-bottom: 50px;
 }
 .hero p, .menu-link {
     font-size: 18px;
