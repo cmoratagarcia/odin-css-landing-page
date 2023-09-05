@@ -48,6 +48,7 @@ body {
     width: 700px;
     flex-shrink: 0;
     margin-bottom: 50px;
+    border-radius: 15px;
 }
 .hero p, .menu-link {
     font-size: 18px;
