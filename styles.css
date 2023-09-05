@@ -20,8 +20,9 @@ body {
     margin: 0;
 }
 .header-logo {
-    font-size: 24px;
+    font-size: 48px;
     color: white;
+    padding: 15px;
 }
 
 .nav-menu {
