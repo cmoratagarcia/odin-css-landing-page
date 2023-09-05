@@ -75,14 +75,28 @@ body {
 
 }
 .cards, .testimonials {
-    color: #1f2937
+    color: #1f2937;
 }
 
 .cards h2 {
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
 }
+.cards-container {
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+margin: 0 auto;
+}
+.card {
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    height: 120px;
+    width: 120px;
 
+}
 .testimonials {
     background-color: #e5e7eb;
 }
