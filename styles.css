@@ -66,12 +66,12 @@ body {
 
 .hero-btn {
     color: #f9faf8;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     width: 120px;
     border: none;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
 
 }
 .cards, .testimonials {
