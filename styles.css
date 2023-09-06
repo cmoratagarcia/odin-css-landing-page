@@ -72,10 +72,10 @@ body {
     color: #f9faf8;
     font-weight: bold;
     font-size: 20px;
-    width: 120px;
+    width: 150px;
     border: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 12px;
 
 }
 .cards, .testimonials {
