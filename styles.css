@@ -91,10 +91,10 @@ body {
 }
 .cards-container {
     max-width: 45%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
+    display: flex;
     margin: 0 auto;
+    justify-content: space-around;
+ 
 }
 
 .card-block {
