@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -20,9 +21,7 @@ body {
     margin: 0;
     height: 100px;
 }
-.menu-link {
-    font-size: 20px;
-}
+
 .header-logo {
     font-size: 48px;
     color: white;
@@ -56,9 +55,9 @@ body {
     border-radius: 15px;
 }
 .hero p {
-    font-size: 18px;
     color: #e5e7eb;
 }
+
 .hero h1 {
     font-size: 48px;
     font-weight:900;
@@ -71,8 +70,8 @@ body {
 
 .hero-btn {
     color: #f9faf8;
-    font-size: 20px;
     font-weight: bold;
+    font-size: 20px;
     width: 120px;
     border: none;
     border-radius: 5px;
@@ -113,14 +112,12 @@ body {
     justify-content: center;
 }
 
-.card > * {
-    font-size: 20px;
-}
 .card-caption {
 max-width: 160px;
 text-align: center;
-font-size: 14px;
+font-size: 16px;
 }
+
 .testimonials {
     background-color: #e5e7eb;
 }
