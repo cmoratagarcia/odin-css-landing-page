@@ -68,7 +68,7 @@ body {
     background-color: #3882f6;
 }
 
-.hero-btn {
+.hero-btn, .sign-up-btn {
     color: #f9faf8;
     font-weight: bold;
     font-size: 20px;
@@ -76,6 +76,7 @@ body {
     border: none;
     border-radius: 5px;
     padding: 12px;
+    cursor: pointer;
 
 }
 .cards, .testimonials {
@@ -137,9 +138,23 @@ margin: 0 auto;
 
 .cta {
     max-width: 60%;
-    margin: auto;
+    margin: 80px auto;
+    padding: 50px 150px;
     border-radius: 15px;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.cta-container h3 {
+    font-size: 26px;
+
+}
+
+.cta-container > * {
+    margin: 0;
+}
+.sign-up-btn {
+    border: 2px solid white;
+    padding: 0;
 }
