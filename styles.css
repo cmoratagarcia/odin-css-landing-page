@@ -18,6 +18,10 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0;
+    height: 100px;
+}
+.menu-link {
+    font-size: 20px;
 }
 .header-logo {
     font-size: 48px;
@@ -31,8 +35,9 @@ body {
     display: flex;
     gap: 25px;
 }
+
 .hero {
-       align-items: center;
+    align-items: center;
     justify-content: space-between;
 }
  
@@ -50,7 +55,7 @@ body {
     margin-bottom: 50px;
     border-radius: 15px;
 }
-.hero p, .menu-link {
+.hero p {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -82,9 +87,10 @@ body {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 50px;
 }
 .cards-container {
-    max-width: 60%;
+    max-width: 45%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
