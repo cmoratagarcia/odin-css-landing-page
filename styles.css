@@ -37,7 +37,7 @@ body {
     display: flex;
     gap: 25px;
 }
-
+/* Hero */
 .hero {
     align-items: center;
     justify-content: space-between;
@@ -82,6 +82,7 @@ body {
     cursor: pointer;
 
 }
+/* Cards */
 .cards, .testimonials {
     color: #1f2937;
 }
@@ -122,6 +123,7 @@ text-align: center;
 font-size: 16px;
 }
 
+/* Testimonials */
 .testimonials {
     margin-top: 50px;
     background-color: #e5e7eb;
@@ -139,6 +141,7 @@ margin: 0 auto;
     text-align: right;
 }
 
+/* CTA */
 .cta {
     max-width: 60%;
     margin: 80px auto;
@@ -162,6 +165,7 @@ margin: 0 auto;
     padding: 0;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 50px 150px;
