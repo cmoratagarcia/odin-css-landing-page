@@ -21,13 +21,16 @@ body {
     margin: 0;
     height: 100px;
 }
-
 .header-logo {
+    display: flex;
+    align-items: center;
+}
+.fa-shield-dog {
     font-size: 48px;
     color: white;
     padding: 15px;
 }
-
+.header,
 .nav-menu {
     list-style-type: none;
     cursor: pointer;
