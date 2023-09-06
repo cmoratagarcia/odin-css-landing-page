@@ -134,3 +134,12 @@ margin: 0 auto;
     font-weight: bold;
     text-align: right;
 }
+
+.cta {
+    max-width: 60%;
+    margin: auto;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
