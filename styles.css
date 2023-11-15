@@ -193,6 +193,9 @@ footer {
     text-align: center;
     padding: 50px 150px;
 }
+.log-in, .log-in:visited {
+    color: black;
+}
 
 /*Form Page*/
 .form-page {
@@ -223,4 +226,11 @@ footer {
 .form-text p {
       font-size: 24px;
     max-width: 1000px;
+}
+
+.sign-up-form ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
