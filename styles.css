@@ -198,11 +198,14 @@ footer {
 }
 
 /*Form Page*/
+.page-container {
+    display: flex;
+}
+
 .form-page {
     display: flex;
     background-color: #F6F7F8;
-    
-     
+       
 }
 
 .form-img {
