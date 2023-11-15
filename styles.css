@@ -197,13 +197,13 @@ footer {
 /*Form Page*/
 .form-page {
     display: flex;
-    
+     
 }
 
 .form-img {
     background-image: url("./Assets/dog-pack.jpg");
     background-size: cover;
-    width: 40%;
+    width: 35%;
     position: relative;
 
 }
@@ -214,4 +214,13 @@ footer {
     background-color: #1f2937;
     width: 100%;
     opacity: 50%;
+}
+.form-text {
+    width: 65%;
+    padding: 80px 30px;
+}
+
+.form-text p {
+      font-size: 24px;
+    max-width: 1000px;
 }
