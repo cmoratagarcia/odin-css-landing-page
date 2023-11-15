@@ -200,6 +200,7 @@ footer {
 /*Form Page*/
 .form-page {
     display: flex;
+    background-color: #F6F7F8;
      
 }
 
@@ -224,13 +225,36 @@ footer {
 }
 
 .form-text p {
-      font-size: 24px;
+    font-size: 24px;
     max-width: 1000px;
+}
+.sign-up-form {
+    background-color: white;
+    border-radius: 3px;
+    width: 80%;
+    padding: 50px;
+    box-shadow: 0 4px 4px -2px #1f2937;
 }
 
 .sign-up-form ol {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    
+    gap: 15px 20px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+}
+
+input {
+    border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
 }
