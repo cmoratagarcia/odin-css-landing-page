@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -187,6 +191,19 @@ footer {
     display: flex;
     
 }
-.background-img {
-    max-width: 30%;
+
+.form-img {
+    background-image: url("./Assets/dog-pack.jpg");
+    background-size: cover;
+    width: 30%;
+    position: relative;
+
+}
+.form-logo {
+    position: absolute;
+    top: 15%;
+    display: block;
+    background-color: #1f2937;
+    width: 100%;
+    opacity: 50%;
 }
