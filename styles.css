@@ -15,6 +15,14 @@ body {
     color: #f9faf8;
  }
 /* Navbar */
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
 .navbar, .hero {
     display: flex;   
     padding: 0 220px;
@@ -195,7 +203,7 @@ footer {
 .form-img {
     background-image: url("./Assets/dog-pack.jpg");
     background-size: cover;
-    width: 30%;
+    width: 40%;
     position: relative;
 
 }
