@@ -216,9 +216,10 @@ footer {
  
 }
 .form-logo {
+    color: white;
     position: absolute;
     top: 15%;
-    display: block;
+    display: flex;
     background-color: #1f2937;
     width: 100%;
     opacity: 50%;
@@ -263,4 +264,9 @@ input {
   width: 100%;
   padding: 7px;
   font-size: 14px;
+}
+
+.form-navbar {
+    padding: 50px;
+    justify-content: end;
 }
