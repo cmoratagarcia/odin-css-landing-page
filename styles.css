@@ -211,15 +211,18 @@ footer {
 .form-img {
     background-image: url("./Assets/dog-pack.jpg");
     background-size: cover;
-    width: 35%;
+    width: 40%;
     position: relative;
  
 }
 .form-logo {
     color: white;
     position: absolute;
-    top: 15%;
+    top: 100px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
     background-color: #1f2937;
     width: 100%;
     opacity: 50%;
@@ -227,13 +230,12 @@ footer {
 
 
 .form-text p {
-    font-size: 24px;
-    width: 60%;
-
+     width: 80%;
     margin-left: 50px;
 }
 .sign-up-form {
     background-color: white;
+    border: none;
     border-radius: 3px;
     padding: 30px;
     box-shadow: 0 4px 4px -2px #1f2937;
@@ -246,13 +248,14 @@ footer {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
     width: 60%;
  
 }
 
 .form-input {
-    display: flex;
+    font-size: 14px;
+       display: flex;
     flex-direction: column;
     width: 200px;
     
@@ -260,10 +263,11 @@ footer {
 
 input {
     border: 1px solid #D6D9DC;
-  border-radius: 3px;
-  width: 100%;
-  padding: 7px;
-  font-size: 14px;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    
+    margin-top: 5px;
 }
 
 .form-navbar {
