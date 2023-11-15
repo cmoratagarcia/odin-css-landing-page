@@ -181,3 +181,12 @@ footer {
     text-align: center;
     padding: 50px 150px;
 }
+
+/*Form Page*/
+.form-page {
+    display: flex;
+    
+}
+.background-img {
+    max-width: 30%;
+}
