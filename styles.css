@@ -276,9 +276,13 @@ input {
 }
 
 input:focus {
-    border: 1px solid blue;
+    outline:none;
+    border: 2px solid blue;
     box-shadow: 0 2px px -2px black;
 }
+input[type="password"]:invalid {
+    border-color: red;
+  }
 
 .join-btn {
     margin: 20px 50px;
