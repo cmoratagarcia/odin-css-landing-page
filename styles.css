@@ -228,9 +228,9 @@ footer {
     align-items: center;
     justify-content: center;
     height: 200px;
-    background-color: #1f2937;
+    background-color: rgba(0,0,0,0.3);
     width: 100%;
-    opacity: 50%;
+
 }
 
 
@@ -304,4 +304,7 @@ input:focus {
 span {
     color: red;
     margin-top: 5px;
+}
+.hidden {
+    display: none;
 }
