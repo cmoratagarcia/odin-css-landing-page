@@ -96,7 +96,8 @@
                     id="password"
                     name="password"
                     type="password"
-                    placeholder="Minimum 8 characters"
+                    pattern="^(?=.*\d).{8,}$"
+                    placeholder="Min. 8 characters, at least 1 number"
                     required
                   />
                 </li>
@@ -106,7 +107,8 @@
                     id="confirm-password"
                     name="confirm-password"
                     type="password"
-                    placeholder="Minimum 8 characters"
+                    pattern="^(?=.*\d).{8,}$"
+                    placeholder="Min. 8 characters, at least 1 number"
                     required
                   />
                 </li>
