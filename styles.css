@@ -208,7 +208,10 @@ footer {
     background-color: #F6F7F8;
        
 }
-
+.form-page p {
+    margin: 25px 50px;
+    width: 80%;
+}
 .sidebar-img {
     background-image: url("./Assets/dog-pack.jpg");
     background-size: cover;
@@ -223,16 +226,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 200px;
     background-color: #1f2937;
     width: 100%;
     opacity: 50%;
 }
 
-.form-text p {
-     width: 80%;
-    margin-left: 50px;
-}
+
 .sign-up-form {
     background-color: white;
     border: none;
@@ -244,6 +244,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
 }
+
 .sign-up-form h3 {
        margin: 0 0 35px 50px;
   
