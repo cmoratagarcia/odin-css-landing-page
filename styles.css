@@ -194,7 +194,7 @@ footer {
     padding: 50px 150px;
 }
 .log-in, .log-in:visited {
-    color: black;
+    color: purple;
 }
 
 /*Form Page*/
@@ -208,14 +208,14 @@ footer {
        
 }
 
-.form-img {
+.sidebar-img {
     background-image: url("./Assets/dog-pack.jpg");
     background-size: cover;
     width: 40%;
     position: relative;
  
 }
-.form-logo {
+.sidebar-logo {
     color: white;
     position: absolute;
     top: 100px;
@@ -228,7 +228,6 @@ footer {
     opacity: 50%;
 }
 
-
 .form-text p {
      width: 80%;
     margin-left: 50px;
@@ -237,19 +236,25 @@ footer {
     background-color: white;
     border: none;
     border-radius: 3px;
-    padding: 30px;
-    box-shadow: 0 4px 4px -2px #1f2937;
+    padding: 20px 0;
+    box-shadow: 0 6px 6px -2px lightgrey;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .sign-up-form h3 {
-    margin: 0 0 35px 0;
+       margin: 0 0 35px 50px;
   
 }
+
 .sign-up-form ol {
+    margin: 15px;
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    width: 60%;
+    width: 65%;
  
 }
 
@@ -257,20 +262,22 @@ footer {
     font-size: 14px;
        display: flex;
     flex-direction: column;
-    width: 200px;
-    
-}
+    width: 250px;
+    }
 
 input {
     border: 1px solid #D6D9DC;
     border-radius: 3px;
     width: 100%;
     padding: 7px;
-    
     margin-top: 5px;
 }
-
+.join-btn {
+    margin: 20px 50px;
+    width: 250px;
+}
 .form-navbar {
     padding: 50px;
     justify-content: end;
 }
+
