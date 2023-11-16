@@ -83,7 +83,7 @@ a:visited {
     background-color: #3882f6;
 }
 
-.hero-btn, .sign-up-btn {
+.hero-btn, .sign-up-btn, .join-btn {
     color: #f9faf8;
     font-weight: bold;
     font-size: 20px;
@@ -275,6 +275,7 @@ input {
 .join-btn {
     margin: 20px 50px;
     width: 250px;
+    background-color: #622363;
 }
 .form-navbar {
     padding: 50px;
