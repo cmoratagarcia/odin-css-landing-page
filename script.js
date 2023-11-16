@@ -15,18 +15,13 @@ submitBtn.addEventListener("click", () => {
   });
 });
 
-password.addEventListener("blur", () => {
-  if (password.value !== confirmPassword.value) {
-    passwordMismatch.classList.remove("hidden");
-  } else {
-    passwordMismatch.classList.add("hidden");
-  }
-});
+password.addEventListener("blur", checkPasswordMatch);
+confirmPassword.addEventListener("blur", checkPasswordMatch);
 
-confirmPassword.addEventListener("blur", () => {
+function checkPasswordMatch() {
   if (password.value !== confirmPassword.value) {
     passwordMismatch.classList.remove("hidden");
   } else {
     passwordMismatch.classList.add("hidden");
   }
-});
+}
