@@ -13,6 +13,17 @@ submitBtn.addEventListener("click", () => {
   confirmPassword.addEventListener("invalid", () => {
     incorrectPassword.classList.remove("hidden");
   });
+});
+
+password.addEventListener("blur", () => {
+  if (password.value !== confirmPassword.value) {
+    passwordMismatch.classList.remove("hidden");
+  } else {
+    passwordMismatch.classList.add("hidden");
+  }
+});
+
+confirmPassword.addEventListener("blur", () => {
   if (password.value !== confirmPassword.value) {
     passwordMismatch.classList.remove("hidden");
   } else {
