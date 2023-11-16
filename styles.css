@@ -204,6 +204,7 @@ footer {
 
 .form-page {
     display: flex;
+    flex-direction: column;
     background-color: #F6F7F8;
        
 }
@@ -272,6 +273,12 @@ input {
     padding: 7px;
     margin-top: 5px;
 }
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 2px px -2px black;
+}
+
 .join-btn {
     margin: 20px 50px;
     width: 250px;
