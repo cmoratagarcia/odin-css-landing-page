@@ -280,8 +280,8 @@ input:focus {
     border: 2px solid blue;
     box-shadow: 0 2px px -2px black;
 }
-input[type="password"]:invalid {
-    border-color: red;
+#main-form.submitted input:invalid{
+    border-color:  red;
   }
 
 .join-btn {
