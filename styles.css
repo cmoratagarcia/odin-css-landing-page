@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
 }
+
 :root {
     --dark-blue: #1f2937;
     --beige: #e5e7eb;
     --azure: #3882f6;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -16,8 +18,8 @@ body {
     background-color: var(--dark-blue);
     color: var(--beige);
  }
-/* Navbar */
 
+/* Navbar */
 a {
     text-decoration: none;
 }
@@ -27,7 +29,7 @@ a:visited {
 }
 .navbar, .hero {
     display: flex;   
-    padding: 0 220px;
+    padding: 0 6vw;
 }
 .navbar {
     justify-content: space-between;
@@ -207,7 +209,7 @@ footer {
 .form-page {
     display: flex;
     flex-direction: column;
-    background-color: var(--beige)
+    background-color: var(--beige);
     padding: 20px;
        
 }
