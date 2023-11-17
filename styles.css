@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
 }
-
+:root {
+    --dark-blue: #1f2937;
+    --beige: #e5e7eb;
+    --azure: #3882f6;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -9,8 +13,8 @@ body {
 }
 
 .dark-background {
-    background-color: #1f2937;
-    color: #f9faf8;
+    background-color: var(--dark-blue);
+    color: var(--beige);
  }
 /* Navbar */
 
@@ -68,7 +72,7 @@ a:visited {
     border-radius: 15px;
 }
 .hero p {
-    color: #e5e7eb;
+    color: var(--beige);
 }
 
 .hero h1 {
@@ -78,11 +82,11 @@ a:visited {
 }
 
 .cta, button {
-    background-color: #3882f6;
+    background-color: var(--azure)
 }
 
 .hero-btn, .sign-up-btn, .join-btn {
-    color: #f9faf8;
+    color: var(--beige);
     font-weight: bold;
     font-size: 20px;
     height: 60px;
@@ -95,7 +99,7 @@ a:visited {
 }
 /* Cards */
 .cards, .testimonials, .form-page {
-    color: #1f2937;
+    color: var(--dark-blue);
 }
 
 .cards h2 {
@@ -124,7 +128,7 @@ a:visited {
     cursor: pointer;
 }
 .card {
-    border: 3px solid #3882f6;
+    border: 3px solid var(--azure);
     border-radius: 15px;
     height: 140px;
     width: 140px;
@@ -143,7 +147,7 @@ font-size: 16px;
 /* Testimonials */
 .testimonials {
     margin-top: 50px;
-    background-color: #e5e7eb;
+    background-color: var(--beige);
     padding: 60px 400px;
 }
 
@@ -192,7 +196,7 @@ footer {
     padding: 50px 150px;
 }
 .log-in, .log-in:visited {
-    color: purple;
+    color: #622363;
 }
 
 /*Form Page*/
@@ -203,7 +207,7 @@ footer {
 .form-page {
     display: flex;
     flex-direction: column;
-    background-color: #F6F7F8;
+    background-color: var(--beige)
     padding: 20px;
        
 }
@@ -282,7 +286,7 @@ input {
 
 input:focus {
     outline:none;
-    border: 2px solid blue;
+    border: 2px solid var(--azure);
     box-shadow: 0 2px px -2px black;
 }
 #main-form.submitted input:invalid{
