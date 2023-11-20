@@ -23,10 +23,13 @@ body {
 a {
     text-decoration: none;
 }
-
-a:visited {
-    color: var(--beige)
+.menu-link {
+    color: white;
 }
+a:visited {
+    color: white;
+}
+
 .navbar, .hero {
     display: flex;   
     padding: 0 6vw;
@@ -73,9 +76,6 @@ a:visited {
     margin: 50px 0;
     border-radius: 15px;
 }
-.hero p {
-    color: var(--beige);
-}
 
 .hero h1 {
     font-size: 48px;
@@ -87,6 +87,11 @@ a:visited {
     background-color: var(--azure)
 }
 
+button:hover {
+
+transform: scale(1.1);
+     
+}
 .hero-btn, .sign-up-btn, .join-btn {
     color: white;
     font-weight: bold;
@@ -213,10 +218,22 @@ footer {
     background-color: var(--beige);
              
 }
+
 .form-page p {
-    margin: 25px 50px;
+    margin-left: 50px;
+    border: 1px solid black;
     width: 80%;
 }
+.intro {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+ 
+}
+
+
 .sidebar-img {
     background-image: url("./Assets/dog-pack.jpg");
     background-size: cover;
@@ -231,9 +248,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 160px;
     background-color: rgba(0,0,0,0.3);
     width: 100%;
+    flex-shrink: 2;
 }
 
 
