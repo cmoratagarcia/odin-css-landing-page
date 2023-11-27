@@ -107,11 +107,11 @@
                     required
                   />
                   <span id="incorrect-pw" class="hidden"
-                    >Password must be at least 8 characters long and contain at
-                    least 1 number.</span
-                  >
-                  <span id="pw-mismatch" class="hidden"
-                    >Passwords do not match.</span
+                    >Password must:
+                    <ul>
+                      <li>be at least 8 characters long</li>
+                      <li>contain at least 1 number</li>
+                    </ul></span
                   >
                 </li>
                 <li class="form-input">
@@ -124,12 +124,17 @@
                     placeholder="Min. 8 characters, at least 1 number"
                     required
                   />
+                  <span id="pw-mismatch" class="hidden"
+                    >Passwords do not match.</span
+                  >
                 </li>
               </ol>
               <button type="submit" class="join-btn">Join our pack!</button>
             </fieldset>
           </form>
-          <p class="intro">Already have an account? <a class="log-in">Log in</a></p>
+          <p class="intro">
+            Already have an account? <a class="log-in">Log in</a>
+          </p>
         </section>
       </div>
     </div>
