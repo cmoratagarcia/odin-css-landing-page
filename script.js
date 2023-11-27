@@ -11,6 +11,7 @@ submitBtn.addEventListener("click", () => {
 });
 
 password.addEventListener("blur", checkPassword);
+password.addEventListener("input", checkPassword);
 confirmPassword.addEventListener("blur", comparePasswords);
 confirmPassword.addEventListener("input", comparePasswords);
 
