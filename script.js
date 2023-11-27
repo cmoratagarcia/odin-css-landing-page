@@ -11,15 +11,18 @@ submitBtn.addEventListener("click", () => {
 });
 
 password.addEventListener("blur", checkPassword);
-confirmPassword.addEventListener("blur", checkPassword);
+confirmPassword.addEventListener("blur", comparePasswords);
+confirmPassword.addEventListener("input", comparePasswords);
 
 function checkPassword() {
   incorrectPassword.classList.add("hidden");
-  passwordMismatch.classList.add("hidden");
 
   if (!password.checkValidity()) {
     incorrectPassword.classList.remove("hidden");
   }
+}
+
+function comparePasswords() {
   if (password.value !== confirmPassword.value) {
     passwordMismatch.classList.remove("hidden");
   } else {
