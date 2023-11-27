@@ -7,18 +7,19 @@ const passwordMismatch = document.querySelector("#pw-mismatch");
 
 submitBtn.addEventListener("click", () => {
   signupForm.className = "submitted";
-  password.addEventListener("invalid", () => {
-    incorrectPassword.classList.remove("hidden");
-  });
-  confirmPassword.addEventListener("invalid", () => {
-    incorrectPassword.classList.remove("hidden");
-  });
+  checkPassword;
 });
 
-password.addEventListener("blur", checkPasswordMatch);
-confirmPassword.addEventListener("blur", checkPasswordMatch);
+password.addEventListener("blur", checkPassword);
+confirmPassword.addEventListener("blur", checkPassword);
 
-function checkPasswordMatch() {
+function checkPassword() {
+  incorrectPassword.classList.add("hidden");
+  passwordMismatch.classList.add("hidden");
+
+  if (!password.checkValidity()) {
+    incorrectPassword.classList.remove("hidden");
+  }
   if (password.value !== confirmPassword.value) {
     passwordMismatch.classList.remove("hidden");
   } else {

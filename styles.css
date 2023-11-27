@@ -225,7 +225,8 @@ footer {
 
 .intro {
     width: 80%;
-    height: 12vh;
+    height: 14vh;
+    
 }
 
 
@@ -243,7 +244,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 14vh;
+    height: 16vh;
     background-color: rgba(0,0,0,0.3);
     width: 100%;
     flex-shrink: 2;
